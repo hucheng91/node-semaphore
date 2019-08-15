@@ -1,7 +1,7 @@
 /*
  * @Author: hucheng
  * @Date: 2019-08-15 11:33:54
- * @Description: here is des
+ * @Description: semaphore 
  */
 
 
@@ -14,14 +14,13 @@ class Semaphore {
         /** @private */
         this._continue = this._continue.bind(this);
     }
-
 	/**
 	 * @param {function(): void} callback function block to capture and run
-	 * @returns {void}
+	 * @returns {void}·
 	 */
     acquire(callback) {
         if (this.available > 0) {
-            this.available--;
+            this.available--; ·
             callback();
         } else {
             this.waiters.push(callback);
