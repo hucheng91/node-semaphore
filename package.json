@@ -1,0 +1,23 @@
+{
+  "name": "semaphore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hucheng91/node-semaphore.git"
+  },
+  "keywords": [
+    "node",
+    "semaphore"
+  ],
+  "author": "hucheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hucheng91/node-semaphore/issues"
+  },
+  "homepage": "https://github.com/hucheng91/node-semaphore#readme"
+}
